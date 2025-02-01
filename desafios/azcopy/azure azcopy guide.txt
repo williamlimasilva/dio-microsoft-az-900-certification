@@ -1,0 +1,12 @@
+token url example: https://<storage-directory-azure>.blob.core.windows.net/azcontainertrainning?sp=racwdli&st=2025-01-31T16:35:07Z&se=2025-02-01T00:35:07Z&spr=https&sv=2022-11-02&sr=c&sig=mBwtc3wu5t6cWfZMWYb4ZICb34P1g7pGAICHex8vPgw%3E
+
+windows dir azcopy example: 
+C:\Users\Home\AppData\Local\Microsoft\WinGet\Packages\Microsoft.Azure.AZCopy.10_Microsoft.Winget.Source_8wekyb3d8bbwe\azcopy_windows_amd64_10.28.0
+
+Local path example: 
+C:\Workspace\Digital Innovation One\Courses\Microsoft AZ-900 Certification\desafios\azcopy
+
+azcopy command in powershell: 
+azcopy copy "C:\local\path" "https://account.blob.core.windows.net/mycontainer1/?sv=2018-03-28&ss=bjqt&srt=sco&sp=rwddgcup&se=2019-05-01T05:01:17Z&st=2019-04-30T21:01:17Z&spr=https&sig=MGCXiyEzbtttkr3ewJIh2AR8KrghSy1DGM9ovN734bQF4%3D" --recursive=true
+
+example: azcopy copy "C:\Workspace\Digital Innovation One\Courses\Microsoft AZ-900 Certification\desafios\azcopy" "https://azurestoragetrainning.blob.core.windows.net/azcontainertrainning?sp=racwdli&st=2025-01-31T16:35:07Z&se=2025-02-01T00:35:07Z&spr=https&sv=2022-11-02&sr=c&sig=mBksc8wr5t3cWfZUWYb4QICm34P1g7pGAICHex8vPgw%3D" --recursive=true
